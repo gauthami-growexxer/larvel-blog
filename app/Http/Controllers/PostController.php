@@ -6,6 +6,19 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 { 
+    public function index()
+    {
+        $posts = Post::all();
+        return view('post.index', [
+            'posts' => $posts,
+        ]);
+    }
+
+    public function show(Post $post)
+    {
+        return $post; 
+    }
+
     public function create()
     {
         return view('post.create');

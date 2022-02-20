@@ -22,7 +22,10 @@ Auth::routes(['register' => true]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-
 Route::get('/post/create', [\App\Http\Controllers\PostController::class, 'create']);
 
 Route::post('/post/create/', [\App\Http\Controllers\PostController::class, 'store']);
+
+Route::get('/blog', [\App\Http\Controllers\PostController::class, 'index']);
+
+Route::get('/blog/{post}', [\App\Http\Controllers\PostController::class, 'show']);
