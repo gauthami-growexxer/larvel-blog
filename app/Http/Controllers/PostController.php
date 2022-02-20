@@ -16,7 +16,9 @@ class PostController extends Controller
 
     public function show(Post $post)
     {
-        return $post; 
+        return view('post.show', [
+            'post' => $post,
+        ]);
     }
 
     public function create()
@@ -32,6 +34,22 @@ class PostController extends Controller
             'user_id' => 1
         ]);
         return redirect('blog/' . $newPost->id);
+    }
+
+    public function edit(Post $post)
+    {
+        return view('post.edit', [
+        'post' => $post,
+        ]); 
+    }
+
+    public function update(Request $request, Post $post)
+    {
+        $post->update([
+            'title' => $request->title,
+            'body' => $request->body
+        ]);
+        return redirect('blog/' . $post->id);
     }
 }
 ?>
