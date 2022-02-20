@@ -33,3 +33,5 @@ Route::get('/blog/{post}', [\App\Http\Controllers\PostController::class, 'show']
 Route::get('/blog/{post}/edit', [\App\Http\Controllers\PostController::class, 'edit']); 
 
 Route::put('/blog/{post}/edit', [\App\Http\Controllers\PostController::class, 'update']); 
+
+Route::delete('/blog/{post}', [\App\Http\Controllers\PostController::class, 'destroy']); 

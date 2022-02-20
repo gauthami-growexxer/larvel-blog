@@ -51,5 +51,11 @@ class PostController extends Controller
         ]);
         return redirect('blog/' . $post->id);
     }
+
+    public function destroy(Post $post)
+    {
+        $post->delete();
+        return redirect('/blog');
+    }
 }
 ?>
