@@ -35,3 +35,4 @@ Route::get('/blog/{post}/edit', [\App\Http\Controllers\PostController::class, 'e
 Route::put('/blog/{post}/edit', [\App\Http\Controllers\PostController::class, 'update']); 
 
 Route::delete('/blog/{post}', [\App\Http\Controllers\PostController::class, 'destroy']); 
+
