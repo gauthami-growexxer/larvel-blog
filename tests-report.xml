@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="8" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.282728">
+    <testsuite name="Unit" tests="7" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="0.262353">
+      <testsuite name="Tests\Unit\BlogTest" file="/var/www/html/larvel-blog/tests/Unit/BlogTest.php" tests="7" assertions="8" errors="0" warnings="0" failures="0" skipped="0" time="0.262353">
+        <testcase name="testDeletePost" class="Tests\Unit\BlogTest" classname="Tests.Unit.BlogTest" file="/var/www/html/larvel-blog/tests/Unit/BlogTest.php" line="10" assertions="1" time="0.105800"/>
+        <testcase name="testCreatePost" class="Tests\Unit\BlogTest" classname="Tests.Unit.BlogTest" file="/var/www/html/larvel-blog/tests/Unit/BlogTest.php" line="19" assertions="1" time="0.020673"/>
+        <testcase name="testStorePost" class="Tests\Unit\BlogTest" classname="Tests.Unit.BlogTest" file="/var/www/html/larvel-blog/tests/Unit/BlogTest.php" line="25" assertions="1" time="0.027416"/>
+        <testcase name="testEditPost" class="Tests\Unit\BlogTest" classname="Tests.Unit.BlogTest" file="/var/www/html/larvel-blog/tests/Unit/BlogTest.php" line="39" assertions="1" time="0.025500"/>
+        <testcase name="testUpdatePost" class="Tests\Unit\BlogTest" classname="Tests.Unit.BlogTest" file="/var/www/html/larvel-blog/tests/Unit/BlogTest.php" line="47" assertions="1" time="0.033354"/>
+        <testcase name="testReadAllThePosts" class="Tests\Unit\BlogTest" classname="Tests.Unit.BlogTest" file="/var/www/html/larvel-blog/tests/Unit/BlogTest.php" line="55" assertions="1" time="0.022785"/>
+        <testcase name="testReadSinglePost" class="Tests\Unit\BlogTest" classname="Tests.Unit.BlogTest" file="/var/www/html/larvel-blog/tests/Unit/BlogTest.php" line="62" assertions="2" time="0.026826"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.020375">
+      <testsuite name="Tests\Feature\ExampleTest" file="/var/www/html/larvel-blog/tests/Feature/ExampleTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.020375">
+        <testcase name="test_example" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" file="/var/www/html/larvel-blog/tests/Feature/ExampleTest.php" line="15" assertions="1" time="0.020375"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
