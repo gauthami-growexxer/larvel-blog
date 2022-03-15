@@ -3,7 +3,7 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
-use App\Models\Post as Posts;
+use App\Models\Post;
 
 class BlogPost extends Component
 {
