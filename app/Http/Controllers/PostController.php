@@ -27,7 +27,7 @@ class PostController extends Controller
     }
 
     /**
-     * Function to show a particular blog by post id
+     * Show a particular blog by post id
      * @author Gauthami
      * @param Post $post
      * @return void
@@ -40,7 +40,7 @@ class PostController extends Controller
     }
 
     /**
-     * Function to display create post view
+     * Display create post view
      * @author Gauthami
      * @return void
      */
@@ -50,7 +50,7 @@ class PostController extends Controller
     }
 
     /**
-     * Function to store post data
+     * Store blog post data
      * @author Gauthami
      * @param Request $request
      * @return void
@@ -70,7 +70,7 @@ class PostController extends Controller
     }
 
     /**
-     * Function to edit blog post 
+     * Display edit blog post view
      * @author Gauthami
      * @param Post $post
      * @return void
@@ -83,7 +83,7 @@ class PostController extends Controller
     }
 
     /**
-     * Function to update blog post 
+     * Update blog post data
      * @author Gauthami
      * @param Request $request
      * @param Post $post
@@ -99,7 +99,7 @@ class PostController extends Controller
     }
 
     /**
-     * Function to delete post 
+     * Delete Blog post
      * @author Gauthami
      * @param Post $post
      * @return void

@@ -11,9 +11,7 @@ class BlogTest extends TestCase
     {
         $post = Post::factory()->count(1)->make();
         $post = Post::first();
-        if ($post) {
-            $post->delete();
-        }
+        $response = $this->call('DELETE', '/blog/' . $post->id);
         $this->assertTrue(true);
     }
 
@@ -49,7 +47,7 @@ class BlogTest extends TestCase
     {
         $post = Post::factory()->count(1)->make();
         $post = Post::first();
-        $response = $this->call('PATCH', '/blog/' . $post->id . '/edit', $post->toArray());
+        $response = $this->call('PUT', '/blog/' . $post->id . '/edit', $post->toArray());
         $this->assertTrue(true);
     }
 
