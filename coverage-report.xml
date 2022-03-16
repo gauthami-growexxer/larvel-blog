@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1631947623">
+  <project timestamp="1631947623">
+    <package name="App\Console">
+      <file name="/var/www/html/laravel-blog/app/Console/Kernel.php">
+        <class name="Kernel" namespace="App\Console">
+          <metrics complexity="2" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="42" ncloc="21" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Exceptions">
+      <file name="/var/www/html/larvel-blog/app/Exceptions/Handler.php">
+        <class name="Handler" namespace="App\Exceptions">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="34" type="method" name="unauthenticated" visibility="protected" complexity="2" crap="6" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="40" type="stmt" count="0"/>
+        <metrics loc="42" ncloc="30" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Controllers">
+      <file name="/var/www/html/larvel-blog/app/Http/Controllers/Controller.php">
+        <class name="Controller" namespace="App\Http\Controllers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/larvel-blog/app/Http/Controllers/PostController.php">
+        <class name="PostController" namespace="App\Http\Controllers">
+          <metrics complexity="7" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="19" coveredelements="19"/>
+        </class>
+        <line num="23" type="method" name="index" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="36" type="method" name="create" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="47" type="method" name="store" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <line num="59" type="method" name="show" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="70" type="method" name="edit" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="72" type="stmt" count="1"/>
+        <line num="82" type="method" name="update" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="84" type="stmt" count="1"/>
+        <line num="85" type="stmt" count="1"/>
+        <line num="94" type="method" name="destroy" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="96" type="stmt" count="1"/>
+        <line num="97" type="stmt" count="1"/>
+        <line num="98" type="stmt" count="1"/>
+        <metrics loc="100" ncloc="57" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="19" coveredelements="19"/>
+      </file>
+    </package>
+    <package name="App\Http">
+      <file name="/var/www/html/larvel-blog/app/Http/Kernel.php">
+        <class name="Kernel" namespace="App\Http">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="39" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="/var/www/html/larvel-blog/app/Http/Middleware/EncryptCookies.php">
+        <class name="EncryptCookies" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/larvel-blog/app/Http/Middleware/RedirectIfAuthenticated.php">
+        <class name="RedirectIfAuthenticated" namespace="App\Http\Middleware">
+          <metrics complexity="2" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="18" type="method" name="handle" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="20" type="stmt" count="0"/>
+        <line num="21" type="stmt" count="0"/>
+        <line num="24" type="stmt" count="0"/>
+        <metrics loc="26" ncloc="18" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/larvel-blog/app/Http/Middleware/TrimStrings.php">
+        <class name="TrimStrings" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="18" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/larvel-blog/app/Http/Middleware/VerifyCsrfToken.php">
+        <class name="VerifyCsrfToken" namespace="App\Http\Middleware">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Models">
+      <file name="/var/www/html/larvel-blog/app/Models/Post.php">
+        <class name="Post" namespace="App\Models">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="/var/www/html/larvel-blog/app/Providers/AppServiceProvider.php">
+        <class name="AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="14" type="method" name="boot" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="17" type="stmt" count="9"/>
+        <line num="24" type="method" name="register" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="27" type="stmt" count="9"/>
+        <metrics loc="28" ncloc="14" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/var/www/html/larvel-blog/app/Providers/AuthServiceProvider.php">
+        <class name="AuthServiceProvider" namespace="App\Providers">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="9"/>
+        <line num="29" type="stmt" count="9"/>
+        <metrics loc="30" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/var/www/html/larvel-blog/app/Providers/BroadcastServiceProvider.php">
+        <class name="BroadcastServiceProvider" namespace="App\Providers">
+          <metrics complexity="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="22" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/larvel-blog/app/Providers/EventServiceProvider.php">
+        <class name="EventServiceProvider" namespace="App\Providers">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="21" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/var/www/html/larvel-blog/app/Providers/RouteServiceProvider.php">
+        <class name="RouteServiceProvider" namespace="App\Providers">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="15" coveredelements="15"/>
+        </class>
+        <line num="30" type="method" name="map" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="32" type="stmt" count="9"/>
+        <line num="34" type="stmt" count="9"/>
+        <line num="37" type="stmt" count="9"/>
+        <line num="46" type="method" name="mapWebRoutes" visibility="protected" complexity="1" crap="1" count="9"/>
+        <line num="48" type="stmt" count="9"/>
+        <line num="49" type="stmt" count="9"/>
+        <line num="50" type="stmt" count="9"/>
+        <line num="51" type="stmt" count="9"/>
+        <line num="60" type="method" name="mapApiRoutes" visibility="protected" complexity="1" crap="1" count="9"/>
+        <line num="62" type="stmt" count="9"/>
+        <line num="63" type="stmt" count="9"/>
+        <line num="64" type="stmt" count="9"/>
+        <line num="65" type="stmt" count="9"/>
+        <line num="66" type="stmt" count="9"/>
+        <metrics loc="67" ncloc="33" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="15" coveredelements="15"/>
+      </file>
+    </package>
+    <package name="App">
+      <file name="/var/www/html/larvel-blog/app/User.php">
+        <class name="User" namespace="App">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="29" ncloc="19" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="16" loc="545" ncloc="342" classes="6" methods="15" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="29" elements="50" coveredelements="42"/>
+  </project>
+</coverage>

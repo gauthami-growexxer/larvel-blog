@@ -12,7 +12,10 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.4",
-        "livewire/livewire": "^2.10"
+        "livewire/livewire": "^2.10",
+        "phpunit/php-code-coverage": "^9.2",
+        "phpunit/phpunit-selenium": "*",
+        "php-webdriver/webdriver":"*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -20,7 +23,8 @@
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^5.10",
-        "phpunit/phpunit": "^9.5.10"
+        "phpunit/phpunit": "^9.5.10",
+        "yzen.dev/laravel-route-coverage": "^0.1.0"
     },
     "autoload": {
         "psr-4": {

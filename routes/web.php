@@ -18,21 +18,4 @@ Route::get('/', function () {
 });
 
 Auth::routes(['register' => true]);
-
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Route::get('/post/create', [\App\Http\Controllers\PostController::class, 'create']);
-
-Route::post('/post/create/', [\App\Http\Controllers\PostController::class, 'store']);
-
-Route::get('/blog', [\App\Http\Controllers\PostController::class, 'index']);
-
-Route::get('/blog/{post}', [\App\Http\Controllers\PostController::class, 'show']);
-
-Route::get('/blog/{post}/edit', [\App\Http\Controllers\PostController::class, 'edit']); 
-
-Route::put('/blog/{post}/edit', [\App\Http\Controllers\PostController::class, 'update']); 
-
-Route::delete('/blog/{post}', [\App\Http\Controllers\PostController::class, 'destroy']); 
-
+Route::resource('/blog', \App\Http\Controllers\PostsController::class);

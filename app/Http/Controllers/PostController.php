@@ -16,7 +16,7 @@ class PostController extends Controller
     /**
      * Function to view all the blog posts
      * @author Gauthami
-     * @return void
+     * @return \Illuminate\Http\Response
      */
     public function index()
     {
@@ -30,7 +30,7 @@ class PostController extends Controller
      * Show a particular blog by post id
      * @author Gauthami
      * @param Post $post
-     * @return void
+     * @return \Illuminate\Http\Response
      */
     public function show(Post $post)
     {
@@ -42,7 +42,7 @@ class PostController extends Controller
     /**
      * Display create post view
      * @author Gauthami
-     * @return void
+     * @return \Illuminate\Http\Response
      */
     public function create()
     {
@@ -53,7 +53,7 @@ class PostController extends Controller
      * Store blog post data
      * @author Gauthami
      * @param Request $request
-     * @return void
+     * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
@@ -73,7 +73,7 @@ class PostController extends Controller
      * Display edit blog post view
      * @author Gauthami
      * @param Post $post
-     * @return void
+     * @return \Illuminate\Http\Response
      */
     public function edit(Post $post)
     {
@@ -87,7 +87,7 @@ class PostController extends Controller
      * @author Gauthami
      * @param Request $request
      * @param Post $post
-     * @return void
+     * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Post $post)
     {
@@ -102,7 +102,7 @@ class PostController extends Controller
      * Delete Blog post
      * @author Gauthami
      * @param Post $post
-     * @return void
+     * @return \Illuminate\Http\Response
      */
     public function destroy(Post $post)
     {
